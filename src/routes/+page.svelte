@@ -11,7 +11,7 @@
     let dragPoints: Point[] = [];
     let canvas: HTMLCanvasElement;
 
-    import pirate from '$lib/images/pirate_ship.png';
+    import pirate from '$lib/images/mandelbrot/pirate_ship.png';
 
     function addPoint(x: number, y: number) {
         dragPoints = [...dragPoints, { X:x, Y:y }];
